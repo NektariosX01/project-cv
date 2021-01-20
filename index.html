@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Nektarios Xenophontos CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Condensed:700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/styles/app.css" />
+  <script src="assets/scripts/app.js" defer></script>
+  <script src="assets/scripts/index.js"></script>
+  <script src="server.js"></script>
+</head>
+
+<body>
+  <div id="backdrop"></div>
+
+  <header id="main-header">
+    <h1 style="font-family: 'Apple Chancery'">Curriculum Vitae</h1>
+  </header>
+
+  <main>
+    <section id="about-this-course">
+      <header>
+        <h2 style="font-family: 'Apple Chancery'; text-align: center">Personal Info</h2>
+      </header>
+      <article>
+        <h2>About</h2>
+        <p>
+          Hello! I am Nektarios Xenophontos and I am a QA Engineer, also working with JavaScript. I live in <a href="#" data-text="Cyprus, Greek Kípros, Turkish Kıbrıs, an island in the eastern Mediterranean Sea renowned since ancient times for its mineral wealth, superb wines and produce, and natural beauty."  class="info-modal">Cyprus</a>
+          and I am a happily married man to an amazing woman and have two children.
+        </p>
+        <p>
+          TEXT GOES HERE
+        </p>
+        <p>
+          TEXT GOES HERE
+        </p>
+      </article>
+      <article>
+        <p>
+          TEXT GOES HERE
+        </p>
+        <p>
+          TEXT GOES HERE
+        </p>
+        <p>
+          TEXT GOES HERE
+        </p>
+      </article>
+      <article>
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            <strong>Basic HTML and CSS knowledge</strong>
+          </li>
+          <li>
+            Basic JavaScript Knowledge
+          </li>
+          <li>
+            Strong use of Cypress automation framework
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section id="about-the-instructor">
+      <header>
+        <h2 style="font-family: 'Apple Chancery'; text-align: center ">Basic Information</h2>
+      </header>
+      <div id="instructor-info">
+        <img src="assets/images/profile_pic.jpg"
+          alt="Profile picture of Nektarios Xenophontos" />
+        <ul>
+          <li style="font-family: 'Apple Chancery'; font-size: large">Nektarios Xenophontos</li>
+          <li>Date of Birth: November 4th, 1985</li>
+          <li>&#x1F3E0; : Famagusta, Avgorou 5510, Cyprus</li>
+          <li>&#x1F4E7; : <a>nektariosx01@gmail.com</a> , <a>nektarios_01@yahoo.com</a></li>
+          <li>&#x1F4DE; : +35799018718</li>
+
+        </ul>
+      </div>
+      <p>
+        Feel free to click on the buttons below for more information about my work and what i am all about! &#x1F609;
+      </p>
+
+      <div>
+        <a href="https://www.linkedin.com/in/nektarios-xenophontos-ab54a486" target="_blank"><button type="button" class="btn button1 waves-effect waves-light"><i class="fa fa-linkedin"> See me on LinkedIn</i></button></a>
+        <a href="https://github.com/NektariosX01" target="_blank"><button type="button" class="btn button2 waves-effect waves-light"><i class="fa fa-github"> See me on Github</i></button></a>
+        <a href="assets/pdf/Nektarios_Xenophontos_CV.pdf" download="Nektarios Xenophontos CV"><button type="button" class="btn button3 waves-effect waves-light"><i class="fa fa-download"></i> Download my CV</button></a>
+        <a href="assets/pdf/Nektarios_Xenophontos_CV.pdf" target="_blank" ><button type="button" class="btn button4 waves-effect waves-light"><i class="fa fa-eye"></i> Read my CV</button></a>
+      </div>
+
+    </section>
+  </main>
+
+<section>
+  <div class="container">
+    <div style="text-align:center">
+      <h2 style="font-family: 'Apple Chancery'">Send Me a Message</h2>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="assets/images/contact-pic.jpg" style="width:70%">
+      </div>
+      <div class="column">
+        <form id="contact-form" action="mailto:nektariosx01@gmail.com" method="POST" enctype="multipart/form-data">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your email.." required>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px" required></textarea>
+          <input type="submit" value="Submit" class="waves-effect">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+
+</html>
